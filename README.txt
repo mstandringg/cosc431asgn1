@@ -4,6 +4,7 @@ javac Parser.java
 javac Indexer.java
 javac Search.java
 
+When running Parser.java make sure wsj.xml is contained within the same folder
 Run search with:
 
 java -Xmx4g Search

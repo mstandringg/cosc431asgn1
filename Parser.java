@@ -19,7 +19,7 @@ public class Parser {
                 int nextDocno;
 //iterate through wsj
                 while ((line = reader.readLine()) != null) {
-                    if (!(line.isBlank())) {
+                    if (!(line.trim().isEmpty())) {
                         nextDocno = 0;
 //divide based on delim characters
                         String[] a = line.split("[^a-zA-Z0-9><'-]");

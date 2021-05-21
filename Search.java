@@ -12,8 +12,8 @@ public class Search {
         try {
 //load index from disc
             Scanner in = new Scanner(System.in);
-            String s = in.nextLine();
-            r = new BufferedReader(new FileReader(s));
+           // String s = in.nextLine();
+            r = new BufferedReader(new FileReader("saved.txt"));
 
             while((line = r.readLine()) != null){
 
